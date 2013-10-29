@@ -4871,13 +4871,3 @@ html {
 .tavera-img {
   position: relative;
 }
-.tavera-img div {
-  position: absolute;
-  display: block;
-  right: 9px;
-  bottom: 0px;
-  background: rgba(158, 105, 40, 0.73);
-  color: #fff;
-  padding: 2px 22px 2px 9px;
-  font-weight: bold;
-}

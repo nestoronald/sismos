@@ -5,3 +5,4 @@
 
 #Fields: date	time	priority	clientip	category	message
 2013-10-28	13:39:52	INFO	127.0.0.1	Joomla FAILURE: 	Empty password not allowed
+2013-10-29	21:35:51	INFO	127.0.0.1	Joomla FAILURE: 	Usuario no existe
