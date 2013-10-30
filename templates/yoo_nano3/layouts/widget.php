@@ -72,9 +72,10 @@ if (in_array($widget->position, array('breadcrumbs', 'logo', 'logo-small', 'sear
 } elseif ($widget->position == 'menu') {
 	if ($widget->menu) {
 		echo $content;
-	} else {
+	} else {		
+	if ($class)  $classes[] = $class;	
 		echo '
-		<ul class="uk-navbar-nav uk-hidden-small">
+		<ul class="uk-navbar-nav uk-hidden-small ">
 			<li class="uk-parent" data-uk-dropdown>
 				<a>'.$title.'</a>
 				<div class="uk-dropdown uk-dropdown-navbar">'.$content.'</div>

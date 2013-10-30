@@ -184,6 +184,7 @@ class plgUserProfile extends JPlugin
 			'aboutme',
 			'dob',
 			'tos',
+			'dato1',
 		);
 
 		$tosarticle = $this->params->get('register_tos_article');

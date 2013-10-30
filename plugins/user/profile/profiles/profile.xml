@@ -117,6 +117,14 @@
 				description="PLG_USER_PROFILE_FIELD_DOB_DESC"
 			/>
 			<field
+				name="dato1"
+				type="text"
+				label="USERPROFILE_DATO1_LABEL"
+				description="USERPROFILE_DATO1_DESC"
+				filter="string"
+				size="20"
+			/>
+			<field
 				name="tos"
 				type="tos"
 				default=""
@@ -124,7 +132,7 @@
 				description="PLG_USER_PROFILE_FIELD_TOS_DESC">
 				<option value="1">PLG_USER_PROFILE_OPTION_AGREE</option>
 				<option value="">JNO</option>
-			</field>
+			</field>		
 		</fieldset>
 	</fields>
 </form>
