@@ -4846,9 +4846,10 @@ html {
 }
 .fleft {
   float: left;
+  padding-right: 8px;
 }
 .home-main .fleft {
-  width: 70%;
+  width: 73%;
 }
 .clear {
   clear: both;
